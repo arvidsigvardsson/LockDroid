@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420E4E411CD2B26500A08193 /* NameCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E4E401CD2B26500A08193 /* NameCardVC.swift */; };
+		420E4E451CD36A9700A08193 /* SplitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E4E441CD36A9700A08193 /* SplitVC.swift */; };
+		420E4E471CD36B2A00A08193 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420E4E461CD36B2A00A08193 /* LoginVC.swift */; };
+		422BA0261CD0B2A2008363D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422BA0251CD0B2A2008363D5 /* AppDelegate.swift */; };
+		422BA02B1CD0B2A2008363D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422BA0291CD0B2A2008363D5 /* Main.storyboard */; };
+		422BA02D1CD0B2A2008363D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 422BA02C1CD0B2A2008363D5 /* Assets.xcassets */; };
+		422BA0301CD0B2A2008363D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 422BA02E1CD0B2A2008363D5 /* LaunchScreen.storyboard */; };
+		422BA0381CD0B478008363D5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422BA0371CD0B478008363D5 /* Network.swift */; };
+		425606941CF2DBB10040BCD3 /* LogTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425606931CF2DBB10040BCD3 /* LogTVC.swift */; };
+		425606961CF2EF5C0040BCD3 /* LogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425606951CF2EF5C0040BCD3 /* LogCell.swift */; };
+		4263930E1CD1E7FB00E21B3F /* RfidTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263930D1CD1E7FB00E21B3F /* RfidTVC.swift */; };
+		426393101CD1F70400E21B3F /* RfidItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4263930F1CD1F70400E21B3F /* RfidItemCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		420E4E401CD2B26500A08193 /* NameCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NameCardVC.swift; path = ../NameCardVC.swift; sourceTree = "<group>"; };
+		420E4E441CD36A9700A08193 /* SplitVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitVC.swift; sourceTree = "<group>"; };
+		420E4E461CD36B2A00A08193 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		422BA0221CD0B2A1008363D5 /* LockDroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockDroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		422BA0251CD0B2A2008363D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		422BA02A1CD0B2A2008363D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		422BA02C1CD0B2A2008363D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		422BA02F1CD0B2A2008363D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		422BA0311CD0B2A2008363D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		422BA0371CD0B478008363D5 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		425606931CF2DBB10040BCD3 /* LogTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogTVC.swift; path = ../LogTVC.swift; sourceTree = "<group>"; };
+		425606951CF2EF5C0040BCD3 /* LogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogCell.swift; sourceTree = "<group>"; };
+		4263930D1CD1E7FB00E21B3F /* RfidTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RfidTVC.swift; sourceTree = "<group>"; };
+		4263930F1CD1F70400E21B3F /* RfidItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RfidItemCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		422BA01F1CD0B2A1008363D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		422BA0191CD0B2A1008363D5 = {
+			isa = PBXGroup;
+			children = (
+				422BA0241CD0B2A2008363D5 /* LockDroid */,
+				422BA0231CD0B2A1008363D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		422BA0231CD0B2A1008363D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				422BA0221CD0B2A1008363D5 /* LockDroid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		422BA0241CD0B2A2008363D5 /* LockDroid */ = {
+			isa = PBXGroup;
+			children = (
+				4263930D1CD1E7FB00E21B3F /* RfidTVC.swift */,
+				425606931CF2DBB10040BCD3 /* LogTVC.swift */,
+				422BA0371CD0B478008363D5 /* Network.swift */,
+				420E4E401CD2B26500A08193 /* NameCardVC.swift */,
+				420E4E441CD36A9700A08193 /* SplitVC.swift */,
+				420E4E461CD36B2A00A08193 /* LoginVC.swift */,
+				422BA0251CD0B2A2008363D5 /* AppDelegate.swift */,
+				422BA0291CD0B2A2008363D5 /* Main.storyboard */,
+				425606951CF2EF5C0040BCD3 /* LogCell.swift */,
+				4263930F1CD1F70400E21B3F /* RfidItemCell.swift */,
+				422BA02C1CD0B2A2008363D5 /* Assets.xcassets */,
+				422BA02E1CD0B2A2008363D5 /* LaunchScreen.storyboard */,
+				422BA0311CD0B2A2008363D5 /* Info.plist */,
+			);
+			path = LockDroid;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		422BA0211CD0B2A1008363D5 /* LockDroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422BA0341CD0B2A2008363D5 /* Build configuration list for PBXNativeTarget "LockDroid" */;
+			buildPhases = (
+				422BA01E1CD0B2A1008363D5 /* Sources */,
+				422BA01F1CD0B2A1008363D5 /* Frameworks */,
+				422BA0201CD0B2A1008363D5 /* Resources */,
+				422BA03B1CD0C0E1008363D5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockDroid;
+			productName = LockDroid;
+			productReference = 422BA0221CD0B2A1008363D5 /* LockDroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		422BA01A1CD0B2A1008363D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Arvid Sigvardsson";
+				TargetAttributes = {
+					422BA0211CD0B2A1008363D5 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = WBKCVWUHZ5;
+					};
+				};
+			};
+			buildConfigurationList = 422BA01D1CD0B2A1008363D5 /* Build configuration list for PBXProject "LockDroid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 422BA0191CD0B2A1008363D5;
+			productRefGroup = 422BA0231CD0B2A1008363D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				422BA0211CD0B2A1008363D5 /* LockDroid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		422BA0201CD0B2A1008363D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				422BA0301CD0B2A2008363D5 /* LaunchScreen.storyboard in Resources */,
+				422BA02D1CD0B2A2008363D5 /* Assets.xcassets in Resources */,
+				422BA02B1CD0B2A2008363D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		422BA03B1CD0C0E1008363D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		422BA01E1CD0B2A1008363D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426393101CD1F70400E21B3F /* RfidItemCell.swift in Sources */,
+				420E4E451CD36A9700A08193 /* SplitVC.swift in Sources */,
+				425606961CF2EF5C0040BCD3 /* LogCell.swift in Sources */,
+				420E4E471CD36B2A00A08193 /* LoginVC.swift in Sources */,
+				422BA0261CD0B2A2008363D5 /* AppDelegate.swift in Sources */,
+				420E4E411CD2B26500A08193 /* NameCardVC.swift in Sources */,
+				4263930E1CD1E7FB00E21B3F /* RfidTVC.swift in Sources */,
+				425606941CF2DBB10040BCD3 /* LogTVC.swift in Sources */,
+				422BA0381CD0B478008363D5 /* Network.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		422BA0291CD0B2A2008363D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422BA02A1CD0B2A2008363D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		422BA02E1CD0B2A2008363D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				422BA02F1CD0B2A2008363D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		422BA0321CD0B2A2008363D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		422BA0331CD0B2A2008363D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		422BA0351CD0B2A2008363D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = LockDroid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigvardsson.LockDroid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		422BA0361CD0B2A2008363D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = LockDroid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sigvardsson.LockDroid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		422BA01D1CD0B2A1008363D5 /* Build configuration list for PBXProject "LockDroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422BA0321CD0B2A2008363D5 /* Debug */,
+				422BA0331CD0B2A2008363D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422BA0341CD0B2A2008363D5 /* Build configuration list for PBXNativeTarget "LockDroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				422BA0351CD0B2A2008363D5 /* Debug */,
+				422BA0361CD0B2A2008363D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 422BA01A1CD0B2A1008363D5 /* Project object */;
+}
